@@ -1,0 +1,14 @@
+.div{
+    background-color: aqua;
+    height: 500px;
+}
+
+.item{
+    background-color: orange;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.crousal-wala{
+   height: 80vh;
+}
