@@ -1,0 +1,18 @@
+*{
+    font-family: comic sans MS;
+}
+
+.container{
+    width: 70vw;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 25px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+input, button{
+    font-size: 1.2rem;
+} 
