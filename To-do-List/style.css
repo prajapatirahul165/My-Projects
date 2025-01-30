@@ -1,0 +1,39 @@
+.container{
+    border: 2px solid black;
+    width: 50vw;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+
+.inp{
+    padding: 5px;
+    width: 80%;
+}
+
+.btn{
+    width: 17%;
+    padding: 5px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.section-B span{
+    cursor: pointer;
+}
+
+.item li{
+    display: inline;
+    list-style: none;
+
+}
+
+.cchecked{
+    text-decoration: line-through;
+}

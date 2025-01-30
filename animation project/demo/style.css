@@ -1,0 +1,45 @@
+
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    /* animation-name: changeShape; */
+    /* animation-duration: 3s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: linear; */
+    /* margin: auto; */
+    animation: changeShape 2s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes changeShape{
+    from{
+        border-radius: 0%;
+
+    }
+    to{
+        border-radius: 60%;
+        background-color: yellow;
+    }
+}
+
+
+/* /* @keyframes changeShape */
+    /* 0%{ */
+        /* border-radius: 0%; */
+        /* width: 300px; */
+    /* } */
+    /* 50%{ */
+
+        /* border-radius: 60%; */
+        /* background-color: blueviolet; */
+        /* width: 70%; */
+        /* height: 200px; */
+    /* } */
+    /* 100%{ */
+        /* border-radius: 0%; */
+        /* width: 100%; */
+    /* } */
+/* } */ 
